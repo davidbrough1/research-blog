@@ -1,9 +1,9 @@
 # Site settings
 # Enter your own credentials here
-title: "My Research Thoughs"
+title: "Research Blog"
 email: david.brough.0416@gmail.com
-description: >
-  The blog show chases research posts.
+description: > # Add blog description
+  
 baseurl: "/research-notes" # replace ``/research-pages`` with the name of the parents repository
 url: "davidbrough1.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
 twitter_username: thedavidbrough
