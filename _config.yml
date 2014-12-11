@@ -3,7 +3,7 @@
 title: "My Research Thoughs"
 email: david.brough.0416@gmail.com
 description: >
-  Tell us about your site
+  The blog show chases research posts.
 baseurl: "/research-notes" # replace ``/research-pages`` with the name of the parents repository
 url: "davidbrough1.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
 twitter_username: thedavidbrough
