@@ -3,8 +3,8 @@
 title: "Research Blog"
 email: david.brough.0416@gmail.com
 description: > # Add blog description
-  
-baseurl: "/research-notes" # replace ``/research-pages`` with the name of the parents repository
+  Research Blog
+baseurl: "/research-blog" # replace ``/research-pages`` with the name of the parents repository
 url: "davidbrough1.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
 twitter_username: thedavidbrough
 disqus: davidbrough
