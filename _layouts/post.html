@@ -10,17 +10,16 @@ comments: true
 
     <p class="post-meta">
 
-      {{ page.date | date: "%b %-d, %Y" }}{% if page.author %}
-      {{ page.author }}{% endif %}{% if page.meta %}
+      {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} •
+      {{ page.author }}{% endif %}{% if page.meta %} •
       {{ page.meta }}{% endif %}
-     }
       </p>
 
   </header>
 
   <article class="post-content">
     {{ content | markdownify }}
-     {% if page.comments %}
+    {% if page.comments %}
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
