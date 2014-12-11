@@ -13,7 +13,14 @@ comments: true
       {{ page.date | date: "%b %-d, %Y" }}{% if page.author %}
       {{ page.author }}{% endif %}{% if page.meta %}
       {{ page.meta }}{% endif %}
-      {% if page.comments %}
+     }
+      </p>
+
+  </header>
+
+  <article class="post-content">
+    {{ content | markdownify }}
+     {% if page.comments %}
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -28,12 +35,5 @@ comments: true
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     {% endif %}
-     }
-      </p>
-
-  </header>
-
-  <article class="post-content">
-    {{ content | markdownify }}
   </article>
 </div>
