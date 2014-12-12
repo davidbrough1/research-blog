@@ -9,7 +9,6 @@ layout: default
 
         <p class="post-meta" style="display:inline;">
             {{ page.date | date: "%b %-d, %Y" }} •
-            <a href='https://raw.githubusercontent.com/{{site.gh.user}}/{{site.gh.repo}}/{{site.gh.branch}}/{{page.path}}' alt="Copy the link to the raw post data."><code style="color:gray;">.../{{page.path}}</code></a>
             {% if page.author %} • {{ page.author }}{% endif %}
             {% if page.meta %} • {{ page.meta }}{% endif %}
 
