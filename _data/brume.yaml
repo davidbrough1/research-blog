@@ -15,7 +15,10 @@ flickr:
   view: https://www.flickr.com/photos/tonyfast/12972815434/in/set-72157641959260094
   # parent set
   set: https://www.flickr.com/photos/tonyfast/sets/72157641959260094/
-author:
-  - name: David Brough
-  - email: david.brough.0416@gmail.com
+# author:
+#   - name: David Brough
+#   - email: david.brough.0416@gmail.com
+name: Research Blog
+author: David Brough
+description: Physical Data Scientists
 thumb: https://farm3.staticflickr.com/2689/12972815434_734b24ef1d_q.jpg
