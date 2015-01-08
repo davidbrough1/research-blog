@@ -1,24 +1,59 @@
-# Site settings
-# Enter your own credentials here
-title: "Research Blog"
-email: david.brough.0416@gmail.com
-description: > # Add blog description
-  Research Blog
-baseurl: "/research-blog" # replace ``/research-pages`` with the name of the parents repository
-url: "davidbrough1.github.io" # replate ``Materials-Informatics-Lab`` with your Github username
-twitter_username: thedavidbrough
-disqus: davidbrough
-
 # Build settings
-# markdown: kramdown
-markdown: redcarpet
-highlighter: null
-permalink: /:title
+markdown: kramdown
+highlighter: pygments
 
-# Pagination of Posts efficiently organizes posts
-# Using Pagination in Jekyll here: http://jekyllrb.com/docs/pagination/
-paginate: 5
+# Site settings
+title: "My Research Blog"
+description: > # this means to ignore newlines until "email:"
+   A Digital Research Notebook
 
+email: david.brough.0416@gmail.com
+#blog logo
+logo: "/assets/images/logo_myrb.jpg"
+# blog cover
+cover: "/assets/images/modern_physics.jpg"
+
+name: 'David Brough'
+author: 'David Brough'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "http://myblog.***.***" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/thedavidbrough
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/davidbrough1
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
+  - icon: linkedin
+    url:  https://www.linkedin.com/pub/david-brough/10/b01/243
+    desc: Checkout my linkedin profile
 
 gh:
   user: davidbrough
@@ -26,10 +61,4 @@ gh:
   # Branch hosting Github pages
   branch: gh-pages
 
-
-redcarpet:
-  extensions: [strikethrough, tables]
-
-sass:
-  sass_dir: public/css
-  style: :compressed
+disqus: davidbrough
