@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /research-blog/about/
 ---
 
 This blog contains derivations and explainations that I wish existed
