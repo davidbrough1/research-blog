@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: {{site.url}}/about/
+permalink: /about/
 ---
 
 This blog contains derivations and explainations that I wish existed
