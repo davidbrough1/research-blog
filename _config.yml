@@ -9,9 +9,9 @@ description: > # this means to ignore newlines until "email:"
 
 email: david.brough.0416@gmail.com
 #blog logo
-logo: "/assets/images/logo_myrb.jpg"
+logo: "/research-blog/assets/images/logo_myrb.jpg"
 # blog cover
-cover: "/assets/images/modern_physics.jpg"
+cover: "/research-blog/assets/images/modern_physics.jpg"
 
 name: 'David Brough'
 author: 'David Brough'
@@ -20,6 +20,7 @@ author_image: "/assets/images/author.jpg"
 paginate:	5
 
 url: "davidbrough1.github.io" # the base hostname & protocol for your site
+# url: "http://localhost:4000"
 baseurl: "/research-blog"
 
 # social icons and sharing options
@@ -56,8 +57,8 @@ social:
     desc: Checkout my linkedin profile
 
 gh:
-  user: davidbrough
-  repo: research-notes
+  user: davidbrough1
+  repo: research-blog
   # Branch hosting Github pages
   branch: gh-pages
 
