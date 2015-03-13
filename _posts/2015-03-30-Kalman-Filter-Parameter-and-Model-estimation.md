@@ -41,6 +41,7 @@ be a sample from a multinomial normal distribution zero means and
 covariances of $Q$ and $R$ respectively.
 
 $$ w_k \sim N(0, Q) $$
+
 $$ v_k \sim N(0, R) $$
 
 In order to get an accurate Kalman filter, the dynamics of the system
@@ -52,11 +53,13 @@ covariances $Q$ and $R$ need to be estimated.
 The state estimates and covariance matrix are defined as follows.
 
 $$ \hat{x}_{k-1} = E[x_{k-1}\rvert y_0, ..., y_{k-1} ] $$
+
 $$ P_{k-1} = E[(x_{k-1}-\hat{x}_{k-1})(x{k-1}-\hat{x}_{k-1})^T] $$
 
 These two quantities can be estimated at time $k$ as follows
 
 $$ \hat{x}_{k \rvert k-1} = F_t \hat{x}_{k \rvert k-1} + B_k u_k$$
+
 $$ P_{k\rvert k-1} = E[(x_{k-1}-\hat{x}_{k-1})(x{k-1}-\hat{x}_{k-1})^T] $$
 
 <!---
