@@ -33,11 +33,13 @@ Materials Innovation
 
  * Data science approach for multi-scale materials science.
 
+ * Previous "knowledge" to be applied to new microstructures.
+
  * Potential method for inverse material design.
 
 --horizontal
 
-## Localization vs Homogenization
+### **Localization vs Homogenization**
 <br />
 
  * Localization (Top Down)
@@ -46,7 +48,7 @@ Materials Innovation
 
 --horizontal
 
-## Homogenization
+### **Homogenization**
 <br />
 
 Quantify Structure $\rightarrow$ Reduce Dimension $\rightarrow$ Fit to Property
@@ -55,7 +57,7 @@ Quantify Structure $\rightarrow$ Reduce Dimension $\rightarrow$ Fit to Property
 
 --vertical
 
-## Homogenization
+### **Homogenization**
 <br />
 
 **2-Point Statistics** $\rightarrow$ PCA $\rightarrow$ Polynomial Regression
@@ -70,7 +72,7 @@ $$ f_r^{hh'} = \frac{1}{V} \sum_x m[x + r, t, h] m[x, t, h'] $$
 
 --vertical
 
-## Homogenization
+### **Homogenization**
 <br />
 
 2-Point Statistics $\rightarrow$ **PCA** $\rightarrow$ Polynomial Regression
@@ -81,7 +83,7 @@ $$ f_r^{hh'} = \frac{1}{V} \sum_x m[x + r, t, h] m[x, t, h'] $$
 
 --vertical
 
-## Homogenization
+### **Homogenization**
 <br />
 
 2-Point Statistics $\rightarrow$ PCA $\rightarrow$ **Polynomial Regression**
@@ -90,16 +92,16 @@ $$ f_r^{hh'} = \frac{1}{V} \sum_x m[x + r, t, h] m[x, t, h'] $$
 
 --horizontal
 
-## Localization
+### **Localization**
 <br />
 
-Discretize Microstructure $\rightarrow$ Calibrate Kernel (Digital Filter)
+Discretize Microstructure $\rightarrow$ Calibrate Kernels (Digital Filters)
 <br />
 Microstructure Function $\rightarrow$ Fit Influence Coefficients
 
 --vertical
 
-## Localization
+### **Localization**
 <br />
 
 Microstructure Function $\rightarrow$ Fit Influence Coefficients
@@ -108,7 +110,7 @@ Microstructure Function $\rightarrow$ Fit Influence Coefficients
 
 --horizontal
 
-## PyMKS Development Approach
+### **PyMKS Development Approach**
 <br />
 
 * Use abstractions from other libraries
@@ -124,7 +126,7 @@ Microstructure Function $\rightarrow$ Fit Influence Coefficients
 
 --horizontal
 
-## PyMKS - API
+### **PyMKS - API**
 <br />
 
 Homogenization and Localization Models
@@ -141,17 +143,54 @@ Homogenization and Localization Models
 
 --horizontal
 
-
-## PyMKS - Current Examples
-<br />
-
-[Examples](http://materialsinnovation.github.io/pymks/EXAMPLES.html)
-
---horizontal
-
-## PyMKS - Future Examples
+### **PyMKS - 2-Point Statistics Example**
 <br />
 [Checkerboard Example](http://nbviewer.ipython.org/github/materialsinnovation/pymks/blob/develop/notebooks/checker_board.ipynb)
 
-[Stess 2D Example](http://nbviewer.ipython.org/github/davidbrough1/pymks/blob/issue152-stress-example/notebooks/stress_homogenization_2D.ipynb)
+--horizontal
+
+### **PyMKS - Homogenization Example**
+<br />
+
+[Effective Stiffness](http://nbviewer.ipython.org/github/davidbrough1/pymks/blob/issue152-stress-example/notebooks/stress_homogenization_2D.ipynb)
+
+--vertical
+### **Sklearn - Dimensionality Reduction**
+<br />
+
+* PCA (Incremental, Randomized, Kernel, Sparse)
+
+* Non-negative Matrix Factorization
+
+* t-distributed Stochastic Neighbor Embedding
+
+* Local Linear Embedding
+
+* Spectral Embedding
+
+* Isomap
+
+* Linear Discriminant Analysis
+
+--vertical
+### **Sklearn - Polynomial Regression Models**
+<br />
+
+* Linear Regression
+
+* Lasso
+
+* Logistic Regression
+
+* Ridge Regression (Bayesian, Kernel)
+
+
+--horizontal
+
+### **PyMKS - Localization Examples**
+<br />
+
+[Structure-Property](http://materialsinnovation.github.io/pymks/rst/elasticity_2D_Multiphase.html)
+
+[Structure-Processing](http://materialsinnovation.github.io/pymks/rst/cahn_hilliard_Legendre.html)
 
