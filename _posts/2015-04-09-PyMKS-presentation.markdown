@@ -13,6 +13,21 @@ tags: featured
 ####**{{ page.subtitle}}**
 ###{{ page.author }}
 
+--notes
+
+Invite to contribute
+
+no theory
+
+a review for some
+
+--horizontal
+
+###**ICME and MGI**
+<br />
+
+  Half the time at half the cost....
+
 --horizontal
 
 ###**Trouble Multiscale Material Models**
@@ -21,8 +36,6 @@ tags: featured
   * Models for different length and time scales
 
   * Nonlinear field equations
-
-  * Structure matters
 
 --horizontal
 ###**Materials Knowledge Systems**
@@ -39,9 +52,12 @@ tags: featured
 ### **Localization vs Homogenization**
 <br />
 
- * Localization (Top Down)
 
- * Homogenization (Bottom Up)
+ Localization &nbsp;  &nbsp; Homogenization
+
+ $\Downarrow$  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\Uparrow$ &nbsp;  &nbsp;
+
+ Top Down &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  Bottom Up &nbsp;  &nbsp;
 
 
 --horizontal
@@ -192,7 +208,7 @@ Homogenization and Localization Models
 * Linear Discriminant Analysis
 
 --vertical
-### **Sklearn - Polynomial Regression Models**
+### **Sklearn - Regression Models**
 <br />
 
 * Linear Regression
