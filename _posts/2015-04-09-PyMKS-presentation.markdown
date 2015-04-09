@@ -13,19 +13,16 @@ tags: featured
 ####**{{ page.subtitle}}**
 ###{{ page.author }}
 
-
 --horizontal
 
-[Materials Innovation Network](https://github.com/materialsinnovation)
-![Materials Innovation](https://raw.githubusercontent.com/materialsinnovation/materialsinnovation.github.io/master/assets/matin_full_logo.png "Materials Innovation Network")
+###**Trouble Multiscale Material Models**
+<br />
 
---vertical
+  * Models for different length and time scales
 
-Materials Innovation
+  * Nonlinear field equations
 
- * [PyMKS](http://pymks.org)
-
- * [Project Pages](http://materialsinnovation.github.io/project-pages)
+  * Structure matters
 
 --horizontal
 ###**Materials Knowledge Systems**
@@ -46,13 +43,33 @@ Materials Innovation
 
  * Homogenization (Bottom Up)
 
+
+--horizontal
+
+[Materials Innovation Network](https://github.com/materialsinnovation)
+![Materials Innovation](https://raw.githubusercontent.com/materialsinnovation/materialsinnovation.github.io/master/assets/matin_full_logo.png "Materials Innovation Network")
+
+--vertical
+
+###**Materials Innovation**
+<br />
+
+ * [PyMKS](http://pymks.org)
+
+ * [Project Pages](http://materialsinnovation.github.io/project-pages)
+
+
+Contributions Welcome
+
 --horizontal
 
 ### **Homogenization**
 <br />
 
 Quantify Structure $\rightarrow$ Reduce Dimension $\rightarrow$ Fit to Property
+
 <br />
+
 2-Point Statistics $\rightarrow$ PCA $\rightarrow$ Polynomial Regression
 
 --vertical
@@ -96,7 +113,9 @@ $$ f_r^{hh'} = \frac{1}{V} \sum_x m[x + r, t, h] m[x, t, h'] $$
 <br />
 
 Discretize Microstructure $\rightarrow$ Calibrate Kernels (Digital Filters)
+
 <br />
+
 Microstructure Function $\rightarrow$ Fit Influence Coefficients
 
 --vertical
@@ -117,7 +136,7 @@ Microstructure Function $\rightarrow$ Fit Influence Coefficients
 
 * Use open source dependencies
 
-* Have a permissive license (MIT)
+* Have a permissive license
 
 * Python has a large scientific code base
 
@@ -149,7 +168,7 @@ Homogenization and Localization Models
 
 --horizontal
 
-### **PyMKS - Homogenization Example**
+### **Homogenization Example**
 <br />
 
 [Effective Stiffness](http://nbviewer.ipython.org/github/davidbrough1/pymks/blob/issue152-stress-example/notebooks/stress_homogenization_2D.ipynb)
@@ -187,10 +206,22 @@ Homogenization and Localization Models
 
 --horizontal
 
-### **PyMKS - Localization Examples**
+### **Localization Examples**
 <br />
 
-[Structure-Property](http://materialsinnovation.github.io/pymks/rst/elasticity_2D_Multiphase.html)
+[Structure-Property](http://nbviewer.ipython.org/github/materialsinnovation/pymks/blob/develop/notebooks/elasticity_2D_Multiphase.ipynb)
 
-[Structure-Processing](http://materialsinnovation.github.io/pymks/rst/cahn_hilliard_Legendre.html)
+[Structure-Processing](http://nbviewer.ipython.org/github/materialsinnovation/pymks/blob/develop/notebooks/cahn_hilliard_Legendre.ipynb)
 
+--horizontal
+
+### **Future Development**
+<br />
+
+ * Generalize Spherical Harmonics
+
+ * Homogenization Processing Example
+
+   * Rate Constant, Kalman Filter
+
+ * Additional Examples
