@@ -219,6 +219,15 @@ Homogenization and Localization Models
 
 * Ridge Regression (Bayesian, Kernel)
 
+* Support Vector Regression
+
+* Isotonic Regression
+
+* Bayesian ARD Regression
+
+* Least Angle Regression
+
+* Partial Least Squares Regression
 
 --horizontal
 
