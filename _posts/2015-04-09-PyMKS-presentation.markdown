@@ -121,7 +121,7 @@ $$ f_r^{hh'} = \frac{1}{V} \sum_x m[x + r, t, h] m[x, t, h'] $$
 
 2-Point Statistics $\rightarrow$ PCA $\rightarrow$ **Polynomial Regression**
 
-<br /> [Sklearn Polynomail Ridge Regression](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html#sklearn.linear_model.Ridge)
+<br /> [Sklearn Polynomial Ridge Regression](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html#sklearn.linear_model.Ridge)
 
 --horizontal
 
