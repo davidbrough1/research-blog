@@ -3,9 +3,9 @@ markdown: kramdown
 highlighter: pygments
 
 # Site settings
-title: "My Research Blog"
+title: "Research Blog"
 description: > # this means to ignore newlines until "email:"
-   A Digital Research Notebook
+   My Digital Research Notebook
 
 email: david.brough.0416@gmail.com
 #blog logo
