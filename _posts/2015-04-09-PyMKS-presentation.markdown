@@ -187,7 +187,7 @@ Homogenization and Localization Models
 ### **Homogenization Example**
 <br />
 
-[Effective Stiffness](http://nbviewer.ipython.org/github/davidbrough1/pymks/blob/issue152-stress-example/notebooks/stress_homogenization_2D.ipynb)
+[Effective Stiffness](http://nbviewer.ipython.org/github/materialsinnovation/pymks/blob/develop/notebooks/stress_homogenization_2D.ipynb)
 
 --vertical
 ### **Sklearn - Dimensionality Reduction**
