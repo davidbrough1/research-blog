@@ -16,6 +16,7 @@ on the strain values as time $\varepsilon_t$.
 $$ y_t = b \varepsilon_t + error_t $$
 
 Here is the result when trying to predict the training samples
+
 ![](https://farm1.staticflickr.com/292/19512987286_7a2eeb97b0_o_d.png)
 
 Here is the results when predicting a test sample.
