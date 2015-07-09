@@ -30,7 +30,7 @@ a review for some
 
 --horizontal
 
-###**Trouble Multiscale Material Models**
+###**Troubles Multiscale Material Models**
 <br />
 
   * Models for different length and time scales
