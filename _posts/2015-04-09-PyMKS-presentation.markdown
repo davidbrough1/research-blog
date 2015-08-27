@@ -13,14 +13,6 @@ tags: featured
 ####**{{ page.subtitle}}**
 ###{{ page.author }}
 
---notes
-
-Invite to contribute
-
-no theory
-
-a review for some
-
 --horizontal
 
 ###**ICME and MGI**
@@ -59,27 +51,11 @@ a review for some
 
  Top Down &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  Bottom Up &nbsp;  &nbsp;
 
-
---horizontal
-
-[Materials Innovation Network](https://github.com/materialsinnovation)
-![Materials Innovation](https://raw.githubusercontent.com/materialsinnovation/materialsinnovation.github.io/master/assets/matin_full_logo.png "Materials Innovation Network")
-
---vertical
-
-###**Materials Innovation**
-<br />
-
- * [PyMKS](http://pymks.org)
-
- * [Project Pages](http://materialsinnovation.github.io/project-pages)
-
-
-Contributions Welcome
-
 --horizontal
 
 ### **Homogenization**
+
+
 <br />
 
 Quantify Structure $\rightarrow$ Reduce Dimension $\rightarrow$ Fit to Property
@@ -87,6 +63,10 @@ Quantify Structure $\rightarrow$ Reduce Dimension $\rightarrow$ Fit to Property
 <br />
 
 2-Point Statistics $\rightarrow$ PCA $\rightarrow$ Polynomial Regression
+
+--vertical
+
+![](https://farm6.staticflickr.com/5812/20745203380_3f98e0a7a8_b_d.jpg)
 
 --vertical
 
@@ -133,6 +113,10 @@ Discretize Microstructure $\rightarrow$ Calibrate Kernels (Digital Filters)
 <br />
 
 Microstructure Function $\rightarrow$ Fit Influence Coefficients
+
+--vertical
+
+![](https://farm1.staticflickr.com/748/20745202890_fd4321a3ac_b_d.jpg)
 
 --vertical
 
@@ -245,8 +229,6 @@ Homogenization and Localization Models
 
  * Generalize Spherical Harmonics
 
- * Homogenization Processing Example
-
-   * Rate Constant, Kalman Filter
+ * Microstructure Reconstruction
 
  * Additional Examples
