@@ -22,7 +22,7 @@ of the microstructures.
 I also created 25 additional microstructures with random instance of
 $\gamma$ from the same distribution.
 
-I then used create a linkage using a second order polynomial regression
+I then created a linkage using a second order polynomial regression
 with 4 principal components.
 
 ![](https://farm2.staticflickr.com/1689/24818294650_5cdf62bb3f_o_d.png)
