@@ -26,3 +26,8 @@ I then created a linkage using a second order polynomial regression
 with 4 principal components.
 
 ![](https://farm2.staticflickr.com/1689/24818294650_5cdf62bb3f_o_d.png)
+
+Now, let's see if we can predict a suitable value of $\gamma$ for the
+[Spinodal Decomposition in Electrically Conducting Polymer Blends](http://dx.doi.org/10.3390/polym7081410)
+
+![](https://farm2.staticflickr.com/1518/24653804743_506eba3a34_o_d.png)
