@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "PhD Proposal Content"
+subtitle: "What I would like to propose"
+author: David Brough
+categories: post
+---
+{% include latex.html %}
+
+# Overall Theme: Parameter Selection and Structure Evolution
+
+ - Time Series Models
+
+   - [X-ray Scattering Evolution Study](http://phelpsforpresident.github.io/MIC-XRD-Polymer/2014/12/12/Final-Post.html)
+
+ - Parameter Estimation of Phase Field Model
+
+    - Show [preliminary work](http://davidbrough.net/research-blog/post/2015/07/29/Time-Series-MKS_Varied_Initial_Conditions.html) with Cahn-Hilliard Model
+
+    - Propose to extend work with Fipy model
+
+ - Localization Structure Evolution
+
+    - Show [preliminary work](http://davidbrough.net/research-blog/post/2016/02/18/Phase-Field-Simulation-Parameters.html) with Cahn-Hilliard Model
+
+    - Propose to extend work with Fipy model
+
+ - Time Series and Influence Coefficients (see images below)
+
+   - Calibration of influence coefficients for each time step.
+   - Do PCA on the set of influence coefficients.
+
+   - Predict the evolution of the influence coefficients in PCA space with time series.
+
+
+
+![](https://farm2.staticflickr.com/1530/25362318113_880237c071_o_d.png)
+PCA results
+
+![](https://farm2.staticflickr.com/1615/25690494410_e9c159057e_o_d.png)
+Variance Captured
+
+![](https://farm2.staticflickr.com/1574/25870249142_a1493399e1_o_d.png)
+Prediction Results with reconstructed influence coefficients from PCA. No time series prediction yet.
