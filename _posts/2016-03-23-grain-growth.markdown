@@ -9,27 +9,30 @@ categories: post
 
 # Grain Growth Questionable Results
 
-Four classes:
+This is an update on the grain growth project for the data challenge submission.
+
+Recall we have four classes:
 
 1. Banded
 2. Rolling
 3. Random
 4. Uniform
 
-Banded and random cluster well, whereas rolling and uniform appear to mess up the model.
+While attempting to the build the process-structure linkage between the input (autocorrelation of pins to pins) and output (chord length distributions) we noticed that two classes were clustering well (banded and random), whereas the other two do not show any discernible trend the current available data (rolling and uniform).
 
-## Reconstructing Chord Length Distribution from PCA
-Good reconstructions on multiple times of classes, even classes with non-normal chord length distributions.
+## Recovering Chord Length Distribution from PCA
+We can recover chord length distributions from our model using an inverse transform on the PCA data. This works for "normal" looking distributions as well as classes with "non-normal" chord length distributions.
 
 **Original.**
 
 ![](https://farm2.staticflickr.com/1447/26013245615_3a9fdc7b60_o_d.png)
 
-**Reconstruction.**
+**Recover.**
 
 ![](https://farm2.staticflickr.com/1654/25712687770_f28a51751f_o_d.png)
 
 ## Scree Plots of PCA
+The scree plots for both the input and output of our model capture much of the variance in a reasonable amount of PC values.
 
 **Input.**
 
@@ -40,6 +43,7 @@ Good reconstructions on multiple times of classes, even classes with non-normal 
 ![](https://farm2.staticflickr.com/1579/25380523784_3060fddf44_o_d.png)
 
 ## PCA of All Samples
+Here are the plots of PCA of all four classes color coordinated. 
 
 **Input.**
 
@@ -49,7 +53,7 @@ Good reconstructions on multiple times of classes, even classes with non-normal 
 
 ![](https://farm2.staticflickr.com/1530/25384486213_2663536f8c_o_d.png)
 
-Plotting just a subset including banded and rolling classes to get a better idea of what is happening.
+Since the green and blue paths above are hard to see we can just plot them to zoom in and get a better spatial representation. Note: the green and orange have no relation to the green orange above, the two colors are simply to show class separation. 
 
 **Input.**
 
@@ -61,7 +65,9 @@ Plotting just a subset including banded and rolling classes to get a better idea
 
 # PCA of Only Banded and Random
 
-Throwing out rolling and uniform classes and recomputing PCA.
+We tried to build a model with these two PCA spaces but were having a hard time obtaining any reasonable results. We tried to throw out rolling and uniform classes and recomputing PCA to see if they were affecting the model.
+
+Notice the more clear/distinct paths and wider separation in the new PCA basis when the rolling and uniform data is not present. 
 
 **Input.**
 
@@ -74,7 +80,7 @@ Throwing out rolling and uniform classes and recomputing PCA.
 ![](https://farm2.staticflickr.com/1481/25380523294_d570511c58_o_d.png)
 
 ## Best Model
-From total PCA training on banded and random only. 80/20 test/train split.
+We obtained our best model from training on banded and random only in the master PCA model. We used standard 80%/20% test/train split.
 
 ```
 Order of Polynomial: 3
@@ -82,6 +88,8 @@ Number of Components: 2
 MSE: -5.18890555335e-05
 R^2: 0.571955314915
 ```
+
+Here is just one example of a chord length distribution in the test data and its corresponding predication from our model. We expect the curve to be smoother and retain a similar shape, but are unhappy with the peak magnitude discrepancy. 
 
 **Original.**
 
